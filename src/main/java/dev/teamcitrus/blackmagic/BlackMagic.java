@@ -16,7 +16,7 @@ public class BlackMagic {
 
     public BlackMagic(IEventBus modEventBus) {
         modEventBus.addListener(this::setup);
-        BMObjects.bootstrap();
+        BMObjects.bootstrap(modEventBus);
     }
 
     @SubscribeEvent

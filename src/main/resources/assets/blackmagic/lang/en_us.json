@@ -1,0 +1,15 @@
+{
+  "itemGroup.blackmagic": "Black Magic",
+  "blackmagic.spell_item": "Spell of %s",
+
+  "blackmagic.rock_skin": "Rock Skin",
+  "blackmagic.rock_skin.desc": "Hardens your skin, reducing damage taken and knockback received",
+
+  "blackmagic.school": "School: %s",
+  "blackmagic.school.fire": "Fire",
+  "blackmagic.school.water": "Water",
+  "blackmagic.school.earth": "Earth",
+  "blackmagic.school.air": "Air",
+  "blackmagic.school.divine": "Divine",
+  "blackmagic.school.summoning": "Summoning"
+}
