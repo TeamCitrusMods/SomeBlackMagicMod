@@ -6,9 +6,7 @@ import dev.shadowsoffire.placebo.codec.PlaceboCodecs;
 
 public interface Spell extends CodecProvider<Spell> {
     SpellType spellType();
-
     School school();
-
     int maxLevel();
 
     enum SpellType {
@@ -19,7 +17,7 @@ public interface Spell extends CodecProvider<Spell> {
 
     enum School {
         FIRE(0xFF0000), WATER(0x0000FF), EARTH(0x964B00), AIR(0xFFFF00),
-        DIVINE(0xFDFD96), SUMMONING(0xA020F0);
+        DIVINE(0xFDFD96), DEMONIC(0x8B0000), SUMMONING(0xA020F0);
 
         private final int color;
 
